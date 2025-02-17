@@ -37,7 +37,7 @@ List<Map> getFailedStages( RunWrapper build ) {
     return getStageResults( build ).findAll{ it.result == 'FAILURE' }
 }
 
-/////// ******************************* Code for fectching Failed Stage Name ******************************* ///////
+/////// ****************************** Code for fectching Failed Stage Name ******************************* ///////
 
 pipeline {
   agent any
